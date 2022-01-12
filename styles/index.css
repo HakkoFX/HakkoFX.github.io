@@ -1,3 +1,11 @@
-h1  {
+.flex   {
+    display: flex;
+}
+#addbutton  {
+    border-radius: 100px;
+    border: white;
+    background-color: orange;
     text-align: center;
+    height: 30px;
+    width: 100px;
 }

@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>HakkoFX</title>
         <link rel="stylesheet" href="styles/index.css">
-        <script type="javascript" src="logic/index.js"></script>
+        <script type="text/javascript" src="logic/index.js"></script>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <p>This is my git page.</p>
+        <div>
+            <div class="flex">
+                <label for="username">Username:</label>
+                <input id="username" type="text">
+            </div>
+            <div class="flex">
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+            </div>
+            <input type="button" value="login" onclick="new index().loginSession()">
+        </div>
     </body>
 </html>
