@@ -3,20 +3,20 @@
     <head>
         <meta charset="utf-8">
         <title>HakkoFX</title>
-        <link rel="stylesheet" href="styles/index.css">
-        <script type="text/javascript" src="logic/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <script rel="script" type="text/javascript" src="logic/index.js"></script>
     </head>
     <body>
-        <div>
-            <div class="flex">
-                <label for="username">Username:</label>
+        <div id="loginContent">
+            <div class="flex" id="usernameDiv">
+                <label for="username" id="userpadding">Username:</label>
                 <input id="username" type="text">
             </div>
-            <div class="flex">
-                <label for="password">Password:</label>
+            <div class="flex" id="passwordDiv">
+                <label for="password" id="passwordpadding">Password:</label>
                 <input type="password" id="password">
             </div>
-            <input type="button" value="login" onclick="new index().loginSession()">
+            <input type="button" id="loginButton" value="LOGIN" onclick="new index().loginSession()">
         </div>
     </body>
 </html>

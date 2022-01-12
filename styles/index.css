@@ -1,11 +1,31 @@
+body{
+    font-family: sans-serif;
+}
 .flex   {
     display: flex;
 }
-#addbutton  {
+#loginButton  {
     border-radius: 100px;
     border: white;
     background-color: orange;
     text-align: center;
     height: 30px;
     width: 100px;
+    margin-top: 10px;
+}
+#loginContent   {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+#userpadding    {
+    padding-right: 3%;
+}
+#passwordpadding    {
+    padding-right: 4.25%;
+}
+#passwordDiv    {
+    margin-top: 10px;
 }
